@@ -1,1 +1,0 @@
-# Online-Screen-Translator
