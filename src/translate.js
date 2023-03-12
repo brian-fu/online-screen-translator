@@ -25,7 +25,7 @@ function detectLanguageSample(text) {
   /**
    * TODO(developer): Uncomment the following line before running the sample.
    */
-  const text = 'The text for which to detect language, e.g. Hello, world!';
+  //const text = 'The text for which to detect language, e.g. Hello, world!';
 
   // Detects the language. "text" can be a string for detecting the language of
   // a single piece of text, or an array of strings for detecting the languages
@@ -74,7 +74,7 @@ function listLanguagesWithTargetSample(target) {
   /**
    * TODO(developer): Uncomment the following line before running the sample.
    */
-  const target = 'ru';
+  //const target = 'ru';
 
   async function listLanguagesWithTarget() {
     // Lists available translation language with their names in a target language
@@ -99,8 +99,8 @@ function translateTextSample(text, target) {
   /**
    * TODO(developer): Uncomment the following lines before running the sample.
    */
-  const text = 'The text to translate, e.g. Hello, world!';
-  const target = 'ru';
+  //const text = 'The text to translate, e.g. Hello, world!';
+  //const target = 'ru';
 
   async function translateText() {
     // Translates the text into the target language. "text" can be a string for
@@ -129,9 +129,9 @@ function translateTextWithModelSample(text, target, model) {
   /**
    * TODO(developer): Uncomment the following lines before running the sample.
    */
-  const text = 'The text to translate, e.g. Hello, world!';
-  const target = 'ru';
-  const model = 'nmt';
+  //const text = 'The text to translate, e.g. Hello, world!';
+  //const target = 'ru';
+  //const model = 'nmt';
 
   async function translateTextWithModel() {
     const options = {
@@ -220,3 +220,4 @@ require('yargs')
   .epilogue('For more information, see https://cloud.google.com/translate/docs')
   .help()
   .strict().argv;
+  
