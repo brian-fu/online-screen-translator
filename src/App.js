@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
-import FileUploader from './FileUploader'
 
 function App() {
-  const {Storage} = require('@google-cloud/storage');
+  //const {Storage} = require('@google-cloud/storage');
 
   //create client
-  const storage = new Storage();
+  //const storage = new Storage();
 
   const [file, setFile] = useState(null);
   function handleChange(event){
@@ -15,7 +14,9 @@ function App() {
   }
 
   async function handleSubmit(event){
-    
+    let formData = new FormData();
+
+    formData.append("file", file);
   }
 
   return (
